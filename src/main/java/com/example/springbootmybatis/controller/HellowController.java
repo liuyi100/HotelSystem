@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpServletRequest;
+
 /**
  * @author liuy
  * @Date 2019/4/25-11:14
@@ -28,9 +30,8 @@ public class HellowController {
         return ipUserDao.getUserbyId(id);
     }
     @GetMapping("/")
-    @ResponseBody
-    public String aa(){
-
-        return "hellow";
+    public String aa(HttpServletRequest request){
+          request.setAttribute("user","进入！！");
+        return "index";
     }
 }
