@@ -1,4 +1,4 @@
-package com.example.springbootmybatis.entity;
+package com.hotelsystem.entity;
 
 /**
  * @author liuy

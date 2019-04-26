@@ -1,8 +1,8 @@
-package com.example.springbootmybatis.controller;
+package com.hotelsystem.controller;
 
-import com.example.springbootmybatis.dao.IpUserDao;
-import com.example.springbootmybatis.dao.UserDao;
-import com.example.springbootmybatis.entity.Ip_User;
+import com.hotelsystem.dao.IpUserDao;
+import com.hotelsystem.dao.UserDao;
+import com.hotelsystem.entity.Ip_User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

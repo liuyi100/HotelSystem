@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.springbootmybatis.dao.IpUserDao">
+<mapper namespace="com.hotelsystem.dao.IpUserDao">
     <!--    public Ip_User getUserbyId(Integer id);-->
-    <select id="getUserbyId" resultType="com.example.springbootmybatis.entity.Ip_User">
+    <select id="getUserbyId" resultType="com.hotelsystem.entity.Ip_User">
         SELECT * FROM ip_user WHERE id=#{id}
     </select>
 

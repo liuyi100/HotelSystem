@@ -1,6 +1,6 @@
-package com.example.springbootmybatis.dao;
+package com.hotelsystem.dao;
 
-import com.example.springbootmybatis.entity.Ip_User;
+import com.hotelsystem.entity.Ip_User;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
