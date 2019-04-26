@@ -34,4 +34,11 @@ public class HellowController {
           request.setAttribute("user","进入！！");
         return "index";
     }
+
+    @GetMapping("/data")
+    public String cc(){
+
+          System.out.println("cc");
+        return "cc";
+    }
 }
