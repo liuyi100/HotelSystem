@@ -32,7 +32,7 @@ public class HellowController {
     @GetMapping("/")
     public String aa(HttpServletRequest request){
           request.setAttribute("user","进入！！");
-        return "index";
+        return "commodity/add.html";
     }
 
     @GetMapping("/data")
